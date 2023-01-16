@@ -1,0 +1,29 @@
+@import "../../../themes/scss/variables.scss";
+
+.commonButton {
+  height: 32px;
+  border: 1px solid #0050bb;
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #0050bb;
+  width: 123px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  p {
+    padding: 0px;
+    margin: 0px;
+  }
+  img {
+    margin-right: 5px;
+  }
+}
